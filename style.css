@@ -1,0 +1,199 @@
+/*General style*/
+
+body{
+	font-family: Arial;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+}
+
+main{
+	margin-left: 130px;
+}
+
+main{
+	max-width: 650px;
+}
+
+header, footer{
+	background-color: #eee;
+}
+
+footer{
+	padding-left: 150px;
+	margin-top: 30px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+nav a, .time-results,footer{
+	color: #777;
+}
+
+.nav-bottom a,.footer-nav a{
+	margin-right: 20px;
+}
+
+/*header*/
+header{
+	padding: 15px 20px 0 20px;
+}
+.head-logo img{
+
+	width: 100px;
+	margin-right: 20px;
+}
+
+/* search input*/
+.head-logo, .search-engine, .nav-right{
+	display: inline-block;
+	vertical-align:middle;
+}
+
+.search-engine input{
+	font-size: 16px;
+	padding: 10px;
+	width: 560px;
+}
+/* icons inside the search form*/
+
+.fa-microphone, .fa-search{
+	position: relative;
+
+}
+.fa-microphone{
+	right: 100px;
+}
+
+.fa-search{
+	right: 80px;
+}
+
+/*Right navigation*/
+.nav-right{
+	float: right;
+}
+
+.sign-in{
+	padding: 7px 14px;
+	background-color: #4285f4;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 4px;
+	position: relative;
+	bottom: 5px;
+}
+
+/*Bottom navigation on the head*/
+
+.nav-bottom, footer{ /*applies same font-size to footer */
+	font-size: 14px;
+	}
+
+.nav-bottom{
+	padding: 30px 0 20px 140px;
+}
+}	
+.nav-bottom a, .bottom-right a{
+	margin-right: 20px;
+}
+.bottom-right{
+	float: right;
+	margin-right: 500px;
+}
+/*active link on nav bottom class*/
+.active{
+	border-bottom: 3px solid blue;
+	padding-top: 10px;
+}
+
+/*main body*/
+
+.time-results{
+	font-size: 14px;
+	text-indent: 35px;
+}
+
+/* google-result*/
+
+.google-result, .searches-related{
+	margin-left: 35px;
+	margin-top:30px;
+}
+
+
+.head-result, .green-link, .result-description{
+	margin: 0;
+	text-align: justify;
+}
+
+.green-link, .result-description{
+	font-size: 13px;
+}
+
+.green-link{
+	color: #006621;
+}
+
+.result-bold{
+	font-weight: bold;
+}
+
+/*google tips in a shape on search results*/
+
+.google-tips{
+	border: 1px solid #eee;
+	margin: 20px;
+	padding: 20px 0;
+}
+
+.google-tips h4{
+	text-align: center;
+}
+
+ .tips-list{
+	margin-left: 40px;
+} 
+
+/* Other searches related*/
+
+.other-searches{
+	margin-left: 10px;
+	font-size: 14px;
+}
+
+.other-searches:hover{
+	text-decoration: underline;
+}
+
+/*google page navigation*/
+.bottom-page-nav img{
+	width: 300px;
+	margin-left: 200px;
+}
+.page-numbers{
+	margin-left: 230px;
+	font-size: 14px;
+}
+
+.page-numbers a {
+	margin-right: 8px;
+}
+
+.next{
+	margin-left: 40px;
+}
+
+.footer-circle{
+	background: #aaa;
+    width: 5px;
+    margin: 0 10px;
+    height: 5px;
+    border-radius: 100%;
+    padding: 2px 10px;
+    vertical-align: middle;
+}
+
+.footer-nav a{
+	margin-right: 20px;
+}
